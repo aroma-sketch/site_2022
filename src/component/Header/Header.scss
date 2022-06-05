@@ -1,0 +1,132 @@
+@import "../../Styling/global.scss";
+@import "../../Styling/style.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+.header{
+    background-color: #0a192f;
+    height: 75px;
+    /* color: whitesmoke; */
+    width: 100%;
+    top: 0;
+    opacity: .95;
+    z-index: 11;
+    transition: all 1.5s ease;
+    position: fixed;
+    align-items: center;
+    
+    -webkit-backdro-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    
+    filter: none !important;
+    pointer-events: auto !important;
+    
+    user-select: auto !important;
+
+
+     .wrapper{
+         padding: 10px 30px;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+
+         .left{
+             display: flex;
+             align-items: center;
+             a{
+                 span{
+                    font-size: 1em;
+                    // background: linear-gradient(
+                    //     145deg
+                    //     ,#f81f01,#f32170,#2196f3);
+                    background: linear-gradient(
+                        145deg
+                        ,  #65ffdb,rgb(247, 236, 236));
+                       //background: linear-gradient(to right, #f32170,#ffeb07 ,#2196f3);
+                       -webkit-text-fill-color: transparent;
+                       -webkit-background-clip: text;
+                       font-family: 'Allison', cursive;
+                       padding: 0 10px;
+                       
+                 }
+             }
+
+            .logo{
+                font-size: 30px;
+                font-weight: bold;
+                text-decoration: none;
+                color: inherit;
+                margin-right: 40px ; 
+            }
+
+            
+         }
+
+
+         .toggler{
+             display: flex;
+             margin-left:450px;
+             
+             &:hover{
+                transform: scale(1.5);
+            }
+            
+         }
+           .right{
+
+            .hamburger{
+                width: 32px;
+                height: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+
+                span{
+                    height: 2px;
+                    transform-origin: left ;
+                    background-color: var(--green);
+                    transition: all 0.5s ease; 
+                }
+            }
+         }
+
+     }
+     span.line2{
+        width: 80%;
+        margin-inline: auto;
+        
+    }
+    span.line3{
+        width: 60%;
+        margin-inline: auto;
+    }
+    
+     &.active{
+         background-color:#112240;
+         color: whitesmoke;
+         filter: blur(8px);
+         -webkit-filter: blur(8px);
+        
+
+         .hamburger{
+
+            span{
+                &:first-child{
+                   
+                    transform: rotate(45deg);
+                    width: 100%;
+
+                }&:nth-child(2){
+                    opacity: 0;
+                }
+
+                &:last-child{
+                    
+                    transform: rotate(-45deg);
+                    width: 100%;
+                }
+            }
+         }
+     }
+ }

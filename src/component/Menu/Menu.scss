@@ -1,0 +1,78 @@
+@import "../../Styling/global.scss";
+@import "../../Styling/style.scss";
+
+.menu {
+  opacity: 0.95;
+  width: 400px;
+  height: 100vh;
+  background-color: var(--light-navy);
+  position: fixed;
+  top: 75px;
+  right: -400px;
+  z-index: 9;
+  box-shadow: -10px 0px 30px -15px var(--navy-shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s ease;
+  color: var(--lightest-slate);
+  font-family: var(--font-mono);
+
+  &.active {
+    right: 0;
+   
+  }
+
+  ul {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    font-size: 25px;
+    font-weight: 300;
+    
+    
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    li {
+      margin-bottom: 29px;
+     
+
+      #halo {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+      
+        
+    
+      }
+
+      a {
+        font-size: inherit;
+        color: inherit;
+        text-decoration: none;
+        
+        
+      }
+      button {
+        border-color: var(--green);
+        background-color: transparent;
+        color: var(--green);
+        font-size: 20px;
+        border-radius: 10px;
+        margin: 10% auto 0px;
+        padding: 18px 50px;
+        cursor: pointer;
+        line-height: 1;
+      }
+
+      &:hover {
+        scroll-behavior: smooth;
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+@import "../../Styling/global.scss";
+@import "../../Styling/style.scss";
+
+.rit {
+  
+  left: 20px;
+  right: auto;
+  width: 40px;
+    position: fixed;
+    bottom: 0px;
+    right: auto;
+    left: 40px;
+    z-index: 10;
+    color: var(--light-slate);
+ 
+  .right-side-align{
+      flex-direction: column;
+      display: flex;
+      position: fixed;
+      bottom: 0px;
+    
+      .hjj{
+        font-size: 25px;
+        color:var(--light-slate);
+      }
+      .hjj :hover{
+        color:var(--green);
+        transform: translateY(-2px);
+        transition: all .2s ease;
+      }
+      li{
+        padding: 10px;
+      }
+      //side  bar line
+      &:after {
+        content: '';
+        display: block;
+        width: 1px;
+        height: 90px;
+        margin: 0 auto;
+        background-color: var(--light-slate);
+      }
+  }
+  .connect{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+  }
+
+    
+}
+ 
+
+
+    
+ 

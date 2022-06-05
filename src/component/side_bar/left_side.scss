@@ -1,0 +1,45 @@
+@import "../../Styling/global.scss";
+@import "../../Styling/style.scss";
+
+
+.hfgh{
+    left: auto;
+    right: 20px;
+
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: auto;
+    right: 40px;
+    z-index: 10;
+    color: var(--light-slate);
+
+    .jhdf{display: flex;
+        flex-direction: column;
+        -webkit-box-align: center;
+        align-items: center;
+        position: relative;
+
+         a{
+            color: var(--light-slate);
+            margin: 20px auto;
+            padding: 10px;
+            font-family: var(--font-mono);
+            font-size: var(--fz-xxs);
+            line-height: var(--fz-lg);
+            letter-spacing: 0.1em;
+            -webkit-writing-mode: vertical-rl;
+            writing-mode: vertical-rl;
+        }
+        //side bar line
+        &:after {
+            content: '';
+            display: block;
+            width: 1px;
+            height: 90px;
+            margin: 0 auto;
+            background-color: var(--light-slate);
+          }
+    }
+}
+
