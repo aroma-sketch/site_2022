@@ -4,13 +4,15 @@ import "./Contact.scss";
 const Contact = () => {
     return (
         <div className='contact' id="contact">
-            <h1>contact</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, corrupti cumque ut nisi fugit nam corporis. Officia eaque adipisci nam quis labore debitis, delectus voluptatem, nostrum eveniet fuga iusto temporibus ducimus magni molestias, molestiae et sequi necessitatibus non provident perferendis incidunt odio. Minus quia placeat similique veniam suscipit recusandae ipsa.</p>
-       
-           
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, corrupti cumque ut nisi fugit nam corporis. Officia eaque adipisci nam quis labore debitis, delectus voluptatem, nostrum eveniet fuga iusto temporibus ducimus magni molestias, molestiae et sequi necessitatibus non provident perferendis incidunt odio. Minus quia placeat similique veniam suscipit recusandae ipsa.</p>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, corrupti cumque ut nisi fugit nam corporis. Officia eaque adipisci nam quis labore debitis, delectus voluptatem, nostrum eveniet fuga iusto temporibus ducimus magni molestias, molestiae et sequi necessitatibus non provident perferendis incidunt odio. Minus quia placeat similique veniam suscipit recusandae ipsa.</p>
- 
+    
+          <h2 className='hrd'>what's next? </h2>
+            <h2 className='title'>lets work together</h2>
+          <p className='jhjk'>If you'd like to talk about a project, just drop me a message or just wanna say hi.
+          I'm currently Available for any design systems projects, dashboard designs or landing pages gigs.</p>
+          <div className="sesf">
+              <a href="#" target="_blank" rel="noopener noreferrer" className='egng'> meet</a>
+              <a href="mailto:connect.aromagupta@gmail.com" rel="noreferrer" target="_blank" className='tre'>say hello !</a> </div>
+          
         </div>
     )
 }
