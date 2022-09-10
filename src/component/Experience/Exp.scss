@@ -1,2 +1,119 @@
 @import "../../Styling/global.scss";
 @import "../../Styling/style.scss";
+
+.exp{
+    padding: 100px 0px;
+    
+    .rack{
+        display: flex;
+    }
+    .kji{
+        text-align: center;
+     text-transform: capitalize;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 0px 40px;
+    width: 100%;
+    font-size: clamp(26px,5vw,var(--fz-heading));
+    white-space: nowrap;
+
+
+    &::before{
+        align-items: center;
+        position: relative;
+        // bottom: 4px;
+        counter-increment: section 1;
+        content: "02" ".";
+        margin-right: 10px;
+        color: var(--green);
+        font-family: var(--font-mono);
+        font-size: clamp(var(--fz-md),3vw,var(--fz-xl));
+        font-weight: 400;
+    }
+    &:after {
+        content: "";
+        display: block;
+        position: relative;
+        top: -5px;
+        width: 300px;
+        height: 1px;
+        margin-left: 20px;
+        background-color: var(--lightest-navy);
+      }
+    }
+    .left {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex: 1.5;
+
+        .item{
+            width: 110px;
+            height: 70px;
+            border-radius: 50px;
+            margin: 2.5px 7px;
+            border: 1px solid lightblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+             cursor: pointer;
+             transition: all .5s ease;
+             position: relative;
+             padding: 6px;
+    
+                        
+          @include mobile{
+              
+            width: 57px;
+            height: 50px;
+          
+                }
+    
+            &:hover{
+                background-color:  #000;
+                svg{
+                    opacity: .2;
+                    z-index: 0;
+                }
+                h3{
+                    color:var(--white);
+                    opacity: 1;
+                    
+                    @include mobile{
+                        font-size: 12px;
+                        
+                    }
+                }
+            }
+        }
+        h3{
+            position: absolute;
+            font-style: 20px;
+            opacity: 0;
+        }
+        svg{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 1;
+        }
+}
+    .right{
+        height: auto;
+        flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    @include mobile {
+        height: 50%
+      }
+
+}
+}

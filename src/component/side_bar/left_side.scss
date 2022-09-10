@@ -14,7 +14,9 @@
     z-index: 10;
     color: var(--light-slate);
 
-    .jhdf{display: flex;
+    .jhdf
+    {
+        display: flex;
         flex-direction: column;
         -webkit-box-align: center;
         align-items: center;

@@ -11,7 +11,7 @@ const Home = () => {
             showCursor: true,
             backDelay: 1500,
             backSpeed:60,
-            strings: [" Frontend Web-Developer ", "Web-Designer ", "Youtuber " , "Gamer " ,"Digital creator "],
+            strings: [" Frontend Web-Developer 👩‍💻. ", "Web-Designer 🌈.","Engineer 🎓.", "You-tuber . " , "Gamer 🎮." ,"Digital creator 🎥."],
           });
     }, []);
 
