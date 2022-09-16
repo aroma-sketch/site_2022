@@ -28,7 +28,7 @@ const Home = () => {
              <div className="wrapper" >
                     <h2 id="halo" >Hi, my name is</h2>
                     <h1>Aroma Gupta.</h1>
-                    <h4>i build things for the web , i am independent , creative , self-motivated Developer .</h4>
+                    <h4>I build things for the web , i am independent , creative , self-motivated Developer .</h4>
                     <h3><span ref={textRef}></span></h3>
                 </div>
 
