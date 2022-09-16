@@ -10,7 +10,7 @@ const Contact = () => {
           <p className='jhjk'>If you'd like to talk about a project, just drop me a message or just wanna say hi.
           I'm currently Available for any design systems projects, dashboard designs or landing pages gigs.</p>
           <div className="sesf">
-              <a href="#" target="_blank" rel="noopener noreferrer" className='egng'> meet</a>
+              <a href="https://calendly.com/connect-aromagupta/30min" target="_blank" rel="noopener noreferrer" className='egng'> meet</a>
               <a href="mailto:connect.aromagupta@gmail.com" rel="noreferrer" target="_blank" className='tre'>say hello !</a> </div>
           
         </div>

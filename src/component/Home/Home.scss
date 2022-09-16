@@ -41,6 +41,9 @@
         height: 350px;
         border-radius:80% ;
 
+        // max-width: 500px;
+        display: block;
+
   
 
         justify-content: center;
@@ -55,8 +58,12 @@
         
         }
     }
+    
     img{
         height: 100%;
+        width: 330px;
+        height: 330px;
+        border-radius:50% ;
     
         
 

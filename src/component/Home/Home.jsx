@@ -2,6 +2,7 @@ import React from 'react'
 import "./Home.scss";
 import { useEffect , useRef } from "react";
 import { init} from 'ityped';
+import pic from "../../Assets/pic.jpg";
 
 const Home = () => {
     const textRef = useRef();
@@ -11,7 +12,7 @@ const Home = () => {
             showCursor: true,
             backDelay: 1500,
             backSpeed:60,
-            strings: [" Frontend Web-Developer 👩‍💻. ", "Web-Designer 🌈.","Engineer 🎓.", "You-tuber . " , "Gamer 🎮." ,"Digital creator 🎥."],
+            strings: [" Frontend Web-Developer 👩‍💻. ", "Web-Designer 🌈.","Engineer 🎓.", "You-tuber  " , "Gamer 🎮." ,"Digital creator 🎥."],
           });
     }, []);
 
@@ -27,7 +28,7 @@ const Home = () => {
              <div className="wrapper" >
                     <h2 id="halo" >Hi, my name is</h2>
                     <h1>Aroma Gupta.</h1>
-                    <h4>i build things for the web ; i am independent ,creative</h4>
+                    <h4>i build things for the web , i am independent , creative , self-motivated Developer .</h4>
                     <h3><span ref={textRef}></span></h3>
                 </div>
 
@@ -35,7 +36,7 @@ const Home = () => {
 
 <div className="left">
                 <div className="imgcont">
-                    <img  src="" alt="dp"></img> 
+                    <img  src={pic} alt="dp"></img> 
                     </div>
              </div>
 
