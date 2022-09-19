@@ -2,10 +2,43 @@
 @import "../../Styling/style.scss";
 
 .footer{
-    background-color: var(--navy);
+    // background-color: var(--navy);
     text-align: center;
+    color: var(--light-slate);
+    font-family: var(--font-mono);
+    font-size: var(--fz-xxs);
+    line-height: 1;
+    padding: 10px;
 
+.center-part{
+    padding: 10px;
 
+.first-line{
+margin-bottom: 4px;
+}
+.second-line{
+span{
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px 7px;
+
+    .ded{
+    //    font-size: 15px;
+       display: flex;
+       
+        svg{
+            display: inline-block;
+    margin-right: 5px;
+    width: 14px;
+    height: 14px;
+        }
+    }}
+}
+.third-line{
+
+}
     p{
     color: #CCD7F7;
+}
 }}
