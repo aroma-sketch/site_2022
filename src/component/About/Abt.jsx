@@ -32,9 +32,9 @@ const Abt = () => {
                 <div className="left">
 <div className="wrapper">
     <div className="image_wrapper hh">
-        <div>
-            <img src={pic} alt="" />
-        </div>
+        
+            <img src={pic} alt="dp" />
+        
 
     </div>
 

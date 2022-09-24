@@ -4,7 +4,11 @@
 
 
 .project{
-    padding: 100px 0px;
+
+        padding: 100px 0px;
+        align-items: center;
+        margin: 0px auto;
+        max-width: 1000px;
 
 
     .pji{
@@ -219,6 +223,12 @@
         padding: 1.25rem 1.75rem;
         margin: 80px auto 0px;
     display: flex;
+
+    &:hover{
+        background-color: var(--green-tint);
+    outline: none;
+
+    }
     }
 }
 

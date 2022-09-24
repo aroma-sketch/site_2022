@@ -22,6 +22,11 @@
       .hjj{
         font-size: 25px;
         color:var(--light-slate);
+
+        svg{
+          width: 20px;
+          height: 20px;
+        }
       }
       .hjj :hover{
         color:var(--green);

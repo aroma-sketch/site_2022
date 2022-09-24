@@ -31,6 +31,7 @@
     }
    .sesf{
     text-transform: capitalize;
+  
    }
     .egng{
         color: var(--green);
@@ -46,6 +47,16 @@
         text-decoration: none;
         cursor: pointer;
         transition: var(--transition);
+
+        svg{
+            width: 18px;
+            height: 18px;
+        }
+
+        &:hover{
+            background-color: var(--green-tint);
+        outline: none;
+        }
     }
     .tre{
         border-radius:20px;
@@ -62,5 +73,10 @@
         cursor: pointer;
         transition: var(--transition);
         // margin-top: 50px;
+
+        &:hover{
+            background-color: var(--green-tint);
+        outline: none;
+        }
     }
 }
