@@ -10,7 +10,7 @@ const Project = () => {
     };
     return (
         <div className='project' id="project">
-            <h1 className='pji'>projects</h1>
+            <h1 className='pji'>Some Things I've Build</h1>
             <ul className='projects-grid'>
 
 {/* BLOG WEBSITE */}

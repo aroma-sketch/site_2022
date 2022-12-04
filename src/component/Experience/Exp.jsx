@@ -1,9 +1,141 @@
 import React from 'react';
 import "./Exp.scss"
+import ExpContent from './ExpContent';
+import ExpItem from './ExpItem';
+import { useEffect, useState } from "react";
 
 const Exp = () => {
+     const[activeTab, setActiveTab]= useState("tab1");
+     const[id,setId]=useState(activeTab);
+
   return <div className='exp' id="exp">
-      <h1 className='kji'>experience</h1>
+      <h1 className='kji'>Where I've Worked</h1>
+      <div className="inner">
+        <div className="tablist">
+        <ExpItem
+          title="Microsoft"
+          id="tab1"
+          activeTab={activeTab}
+          setActiveTab={setActiveTab}
+        />
+        <ExpItem
+          title="geniobits"
+          id="tab2"
+          activeTab={activeTab}
+          setActiveTab={setActiveTab}
+        />
+        <ExpItem
+          title="cradles"
+          id="tab3"
+          activeTab={activeTab}
+          setActiveTab={setActiveTab}
+        />
+            {/* <button className='tab1' >
+                <span>microsoft </span></button>
+            <button className='tab2' >
+                <span> geniobits</span></button>
+            <button className='tab3' >
+                <span>engineer's cradle</span>
+                </button> */}
+                <div className={activeTab === id ? "slider" :"" }></div>
+
+        </div>
+        <div className="tabdesc" >
+           
+        <ExpContent id="tab1" activeTab={activeTab}>
+                 <h3>
+                    <span>microsoft learn student ambassador </span>
+                <span  className='campany'> <a href="www.google.com"> @ microsoft</a></span>
+                </h3>
+                <p className='range'>may 2000 - present</p>
+                <div>
+                    <ul>
+                        <li>Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern</li>
+                        <li>Helped solidify a brand direction for blistabloc that spans both packaging and web</li>
+                        <li>Interfaced with clients on a weekly basis, providing technological expertise</li>
+                        </ul>
+                 </div>
+        </ExpContent>
+        <ExpContent id="tab2" activeTab={activeTab}>
+        <h3>
+                    <span>react developer intern </span>
+                <span  className='campany'><a href="www.google.com"> @ genioBits technology</a> </span>
+                </h3>
+                <p className='range'>may,2000-present</p>
+                <div>
+                    <ul>
+                        <li> Collaborated with a small team of student designers to spearhead a new brand and design system for Scout’s inaugural student-led design conference at Northeastern</li>
+                        <li>Worked closely with designers and management team to develop, document, and manage the conference’s marketing website using Jekyll, Sass, and JavaScript</li>
+                    
+                        </ul>
+                 </div>
+        </ExpContent>
+        <ExpContent id="tab3" activeTab={activeTab}>
+        <h3>
+                    <span>frontened developer </span>
+                <span className='campany'><a href="www.google.com"> @ engineer's cradle</a> </span>
+                </h3>
+                <p className='range'>may,2000-present</p>
+                <div>
+                    <ul>
+                        <li>Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery</li>
+                        <li>Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness</li>
+                        <li>Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more</li>
+                        </ul>
+                 </div>
+        </ExpContent>
+
+            {/* <div className="tabpanel" >
+              
+                <h3>
+                    <span>intern</span>
+                <span>@ndsp;</span>
+                </h3>
+                <p className='range'>may,2000-present</p>
+                <div>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        </ul>
+                 </div>
+            </div>
+
+         
+            <div className="tabpanel" >
+                <h3>
+                    <span>intern</span>
+                <span>@ndsp;</span>
+                </h3>
+                <p className='range'>may,2000-present</p>
+                <div>
+                    <ul>
+                        <li>Lorem.</li>
+                        <li>Lorem.</li>
+                        <li>Lorem .</li>
+                        </ul>
+                        </div>
+            </div>
+
+      
+            <div className="tabpanel">
+                <h3>
+                    <span>intern</span>
+                <span>@ndsp;</span>
+                </h3>
+                <p className='range'>may,2000-present</p>
+                <div>
+                    <ul>
+                        <li> amet.</li>
+                        <li> amet.</li>
+                        <li> amet.</li>
+                        </ul>
+                        </div>
+            </div> */}
+        </div>
+      </div>
+
+      <h1 className='kjn'>Techstack I've Learned</h1>
       <div className="rack">
       <div className="left">
                <div className="item">
