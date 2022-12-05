@@ -19,9 +19,46 @@
   color: var(--lightest-slate);
   font-family: var(--font-mono);
 
+
+
   &.active {
     right: 0;
    
+      
+  @media (max-width: 768px) {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: fixed;
+    //top: 0px;
+    bottom: 0px;
+    right: 0px;
+    padding: 50px 10px;
+ //   width: min(75vw, 400px);
+    height: 100vh;
+    outline: 0px;
+    background-color: var(--light-navy);
+    box-shadow: -10px 0px 30px -15px var(--navy-shadow);
+    z-index: 9;
+    transition: all 1s ease;
+    transform: translateX(0vw);
+    visibility: visible;
+    transition: var(--transition);
+    // ${({ theme }) => theme.mixins.flexCenter};
+  //    position: relative;
+  //    z-index: 10;
+  //    margin-right: -15px;
+  //    padding: 15px;
+  //    border: 0;
+  //    background-color: transparent;
+  //    color: inherit;
+  //    text-transform: none;
+  //    transition-timing-function: linear;
+  //    transition-duration: 0.15s;
+  //    transition-property: opacity, filter;
+   }
   }
 
   ul {

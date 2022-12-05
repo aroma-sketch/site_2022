@@ -24,6 +24,14 @@
     
     user-select: auto !important;
 
+    @media (max-width: 768px){
+        // padding: 0px 25px;
+        width: 100%;
+    }
+//     @media (max-width: 1080px)
+//  {
+//     padding: 0px 40px;
+// }
 
      .wrapper{
          padding: 10px 30px;
