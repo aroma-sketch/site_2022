@@ -21,16 +21,53 @@ body {
 .app {
   background-color: var(--navy);
 
+  @media (max-width: 768px){
+width: 100%;
+      
+  }
+  main{
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1600px;
+    min-height: 100vh;
+
+    @include mobile{
+      width: 100%;
+      // flex-direction: column;
+      // align-items: flex-start;
+  }
+  }
+  // main.fill_height{
+  //   padding: 0px 150px;
+  // }
 
   .sections {
-    padding: 0 180px;
+    padding: 0 185px;
     line-height: 1.3;
+
+   
+      @media (max-width: 876px){
+        padding: 0 132px;
+      
+    }
+    @media (max-width: 786px){
+      padding: 0 112px;
+      width: 100%;
     
+  }
+    
+    h1,h2{
+      // margin: 0px 0px 10px;
+      // font-weight: 600;
+      // color: var(--lightest-slate);
+      line-height: 1.1;
+    }
    
   }
-  h1 {
-    color: #ccd7f7;
-  }
+  // h1 {
+  //   line-height: 1.1;
+  //   // color: #ccd7f7;
+  // }
 
   // scroll-btn..........
   .back-to-top {

@@ -50,6 +50,7 @@ const scrollToTop = () => {
        <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
        <RightSide/>
        <LeftSide/>
+       <main className='fill_height'>
        <div className="sections">
       
       <Home/>
@@ -58,8 +59,10 @@ const scrollToTop = () => {
       <Project/>
       <Contact/>
       <Footer/>
+     
 
       </div>
+      </main>
        {/* <p style={{marginTop:"150vh"}}>bottom</p>  */}
 
       {showButton && (
