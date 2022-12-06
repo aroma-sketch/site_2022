@@ -14,12 +14,8 @@ const RightSide = () => {
     
     <li><a href="https://www.instagram.com/_aromagupta_/" target="_blank" className='hjj'> <FaInstagram/> </a></li>
     <li><a href="https://www.facebook.com/aroma.gupta.9210" target="_blank" className='hjj'><FaFacebook/></a></li>
-
-    
-    
   </ul>
      
-      
     </div>
   );
 }

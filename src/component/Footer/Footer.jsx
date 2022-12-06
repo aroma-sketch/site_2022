@@ -2,7 +2,7 @@ import React from 'react'
 import "./Footer.scss"
 import { useEffect, useState } from "react";
 import {AiOutlineEye,AiOutlineCopyrightCircle} from 'react-icons/ai';
-
+import {FaInstagram,FaFacebook,FaLinkedinIn,FaGithub,FaTwitter} from 'react-icons/fa';
  
 const Footer = () => {
     const [count, setCount] = useState(null);
@@ -21,6 +21,17 @@ const Footer = () => {
     return (
         <div className="footer">
 <div className="center-part">
+<div className='ritt'>
+  <ul className='right-side-align connect'>
+    <li><a href="https://www.linkedin.com/in/aroma-g-429595203/" target="_blank" className='hjj'><FaLinkedinIn /></a></li>
+    <li><a href="https://github.com/aroma-sketch" target="_blank" className='hjj'><FaGithub/></a></li>
+    <li><a href="https://twitter.com/AromaGupta" target="_blank" className='hjj'> <FaTwitter/> </a></li>
+    
+    <li><a href="https://www.instagram.com/_aromagupta_/" target="_blank" className='hjj'> <FaInstagram/> </a></li>
+    <li><a href="https://www.facebook.com/aroma.gupta.9210" target="_blank" className='hjj'><FaFacebook/></a></li>
+  </ul>
+     
+    </div>
         <div className="first-line">
              {/* ................Copyright area .......................*/}
             <p>Build &amp; Developed by AromaGupta</p>
@@ -38,7 +49,8 @@ const Footer = () => {
             </div>
 
             <div className="third-line">
-                <p>Copyright&copy; <span> {getYear()} </span> All Rights Reserved.</p>
+                <p>designed by &amp; brittany chiang</p>
+                {/* <p>Copyright&copy; <span> {getYear()} </span> All Rights Reserved.</p> */}
             </div>
             
             </div>
