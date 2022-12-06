@@ -5,7 +5,7 @@ import pic from "../../Assets/pic.jpg";
 const Abt = () => {
     return (
         <div className='abt' id="abt">
-            <h1 className='aji'>about</h1>
+            <h1 className='aji'>about me</h1>
             <div className="inner">
                 <div className="rig">
                     <div>

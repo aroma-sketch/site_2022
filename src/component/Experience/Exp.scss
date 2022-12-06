@@ -4,7 +4,9 @@
 .exp{
     padding: 100px 40px;
    // max-width: 700px;
-    
+     @include mobile{
+        padding: 100px 0px;
+     }
    .inner{
     display: flex;
     
@@ -73,7 +75,7 @@ button {
               }
               @media (max-width: 600px) {
             
-                min-width: 120px;
+                //min-width: 120px;
                 padding: 0 15px;
                 border-left: 0;
                 border-bottom: 2px solid var(--lightest-navy);
@@ -121,6 +123,10 @@ button {
         position: relative;
         width: 100%;
         margin-left: 50px;
+
+        @include mobile{
+            margin:0px ;
+        }
 
         .TabContent {
             width: 100%;
@@ -209,6 +215,10 @@ button {
 
     .rack{
         display: flex;
+
+        @include mobile{
+            display: block;
+        }
     }
     .kji{
         text-align: center;
@@ -221,6 +231,8 @@ button {
     width: 100%;
     font-size: clamp(26px,5vw,var(--fz-heading));
     white-space: nowrap;
+
+    
 
 
     &::before{
@@ -258,6 +270,10 @@ button {
         width: 100%;
         font-size: clamp(26px, 5vw, var(--fz-heading));
         white-space: nowrap;
+
+        @include mobile{
+            margin-top: 30px;
+        }
     
 
     // &::before{
@@ -300,6 +316,10 @@ button {
         justify-content: center;
         flex-wrap: wrap;
         flex: 1.5;
+
+        @include mobile{
+            width: 100%;
+        }
 
         .item{
             width: 85px;

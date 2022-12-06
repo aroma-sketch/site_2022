@@ -21,7 +21,6 @@
     
     filter: none !important;
     pointer-events: auto !important;
-    
     user-select: auto !important;
 
     @media (max-width: 768px){
@@ -85,7 +84,7 @@
 
             .hamburger{
                 width: 32px;
-                height: 25px;
+                height: 20px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -103,12 +102,14 @@
      }
      span.line2{
         width: 80%;
-        margin-inline: auto;
+      //  margin-inline: auto;
+        margin-inline-start: auto;
         
     }
     span.line3{
         width: 60%;
-        margin-inline: auto;
+        margin-inline-start: auto;
+        // margin-inline: auto;
     }
     
      &.active{
