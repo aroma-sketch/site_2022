@@ -21,49 +21,6 @@ const Project = () => {
                                 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
                                 </div>
                                 <div className="project-links">
-                                    <a href="https://github.com/aroma-sketch/resume_builder-js">
-                                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                                    </a>
-                                    <a class="external" href="#">
-                                    <svg xmlns="http://www.w3.org/2000/svg" role="img"
-                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                      stroke-width="2" stroke-linecap="round"
-                                       stroke-linejoin="round" class="feather feather-external-link">
-                                        <title>External Link</title>
-                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
-                                        </svg> 
-
-                                        </a>
-                              
-                                </div>
-                            </div>
-                            <h3 className='project-title'>
-                                <a href="#">landmine detecting arduino robot</a>
-                            </h3>
-                            <div className="project-description">
-                                <p id="j">Arduino-based controlled car, using Arduino Uno-3, L298N light driver module board with ultrasonic sensors to perceive the surroundings and act wisely</p>
-                                {/* <p>This project is designed as a robotic vehicle for remote operation. This kind of robot can be helpful for mobility aid for elderly and also for military purpose.</p> */}
-                            </div>
-                        </header>
-                        <footer>
-                            <ul className='project-tech-list'>
-                                <li>arduino uno-3</li>
-                                <li>c++</li>
-                                <li>sensors</li>
-                            </ul>
-                        </footer>
-                    </div>
-                </li>
-
-{/* BLOG WEBSITE */}
-                <li className="dIMCBf">
-                    <div className="project-inner">
-                        <header>
-                            <div className="project-top">
-                                <div className="folder">
-                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-                                </div>
-                                <div className="project-links">
                                     <a href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                                     </a>
@@ -81,7 +38,50 @@ const Project = () => {
                                 </div>
                             </div>
                             <h3 className='project-title'>
-                                <a href="#">blog website</a>
+                                <a href="#project">landmine detecting arduino robot</a>
+                            </h3>
+                            <div className="project-description">
+                                <p id="j">Arduino-based controlled car, using Arduino Uno-3, L298N light driver module board with ultrasonic sensors to perceive the surroundings and act wisely</p>
+                                {/* <p>This project is designed as a robotic vehicle for remote operation. This kind of robot can be helpful for mobility aid for elderly and also for military purpose.</p> */}
+                            </div>
+                        </header>
+                        <footer>
+                            <ul className='project-tech-list'>
+                                <li>arduino Uno-3</li>
+                                <li>c++</li>
+                                <li>sensors</li>
+                            </ul>
+                        </footer>
+                    </div>
+                </li>
+
+{/* BLOG WEBSITE */}
+                <li className="dIMCBf">
+                    <div className="project-inner">
+                        <header>
+                            <div className="project-top">
+                                <div className="folder">
+                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                                </div>
+                                <div className="project-links">
+                                    <a href="#project">
+                                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                    </a>
+                                    <a class="external" href="#project">
+                                    <svg xmlns="http://www.w3.org/2000/svg" role="img"
+                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                      stroke-width="2" stroke-linecap="round"
+                                       stroke-linejoin="round" class="feather feather-external-link">
+                                        <title>External Link</title>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg> 
+
+                                        </a>
+                              
+                                </div>
+                            </div>
+                            <h3 className='project-title'>
+                                <a href="#project">blog website</a>
                             </h3>
                             <div className="project-description">
                                 <p id="j">A backend web application builds using Node.js with Express.js framework, where one can post its blog to the world.</p>
@@ -109,7 +109,7 @@ const Project = () => {
                                     <a href="https://github.com/aroma-sketch/resume_builder-js">
                                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                                     </a>
-                                    <a class="external" href="#">
+                                    <a class="external" href="https://aroma-sketch.github.io/resume_builder-js/">
                                     <svg xmlns="http://www.w3.org/2000/svg" role="img"
                                      viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                       stroke-width="2" stroke-linecap="round"
@@ -123,7 +123,7 @@ const Project = () => {
                                 </div>
                             </div>
                             <h3 className='project-title'>
-                                <a href="#">resume builder</a>
+                                <a href="#project">resume builder</a>
                             </h3>
                             <div className="project-description">
                                 <p id="j">Web- Application project build using javascript, bootstrap, HTML, CSS
@@ -136,6 +136,7 @@ a pdf format.
                             <ul className='project-tech-list'>
                                 <li>html</li>
                                 <li>css</li>
+                                <li>jquery</li>
                                 <li>javascript</li>
                             </ul>
                         </footer>
@@ -168,7 +169,7 @@ a pdf format.
                                 </div>
                             </div>
                             <h3 className='project-title'>
-                                <a href="#">weather app</a>
+                                <a href="#project">weather app</a>
                             </h3>
                             <div className="project-description">
                                 <p id="j">Weather forecast web -application, which provides you weather information of the city, the app is dynamically responsive also its has an adaptable UI, according to the city information</p>
@@ -211,7 +212,7 @@ a pdf format.
                                 </div>
                             </div>
                             <h3 className='project-title'>
-                                <a href="#">socio launcher</a>
+                                <a href="#project">socio launcher</a>
                             </h3>
                             <div className="project-description">
                                 <p id="j">Developed an innovative Chrome-Extension package that automated the user all of their social media links, accessible to all browsers</p>
@@ -219,9 +220,9 @@ a pdf format.
                         </header>
                         <footer>
                             <ul className='project-tech-list'>
-                                <li>json</li>
+                                <li>javascript</li>
                                 <li>manifest json</li>
-                                <li>pjp</li>
+                                
                             </ul>
                         </footer>
                     </div>
@@ -236,10 +237,10 @@ a pdf format.
                                 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
                                 </div>
                                 <div className="project-links">
-                                    <a href="#">
+                                    <a href="https://github.com/aroma-sketch/site_2022">
                                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                                     </a>
-                                    <a class="external" href="#">
+                                    <a class="external" href="#home">
                                     <svg xmlns="http://www.w3.org/2000/svg" role="img"
                                      viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                       stroke-width="2" stroke-linecap="round"
@@ -253,10 +254,10 @@ a pdf format.
                                 </div>
                             </div>
                             <h3 className='project-title'>
-                                <a href="#">personal website</a>
+                                <a href="#project">personal website</a>
                             </h3>
                             <div className="project-description">
-                                <p id="j">third integration of my portfolio website built with react.js and hosted on netlify</p>
+                                <p id="j">second integration of my portfolio website built with react.js and hosted on netlify</p>
                             </div>
                         </header>
                         <footer>
@@ -285,10 +286,10 @@ a pdf format.
                                 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
                                 </div>
                                 <div className="project-links">
-                                    <a href="#">
+                                    <a href="https://github.com/aroma-sketch/website_repo">
                                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                                     </a>
-                                    <a class="external" href="#">
+                                    <a class="external" href="https://guptaaromav3.netlify.app/">
                                     <svg xmlns="http://www.w3.org/2000/svg" role="img"
                                      viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                       stroke-width="2" stroke-linecap="round"
@@ -302,7 +303,7 @@ a pdf format.
                                 </div>
                             </div>
                             <h3 className='project-title'>
-                                <a href="#">portfolio  website</a>
+                                <a href="#project">portfolio  website</a>
                             </h3>
                             <div className="project-description">
                                 <p id="j">A portfolio website built with the help of HTML, CSS,SASS, JavaScript, Bootstrap, react.js, material-UI,framer-motion, and additional react libraries</p>
@@ -344,7 +345,7 @@ a pdf format.
                                 </div>
                             </div>
                             <h3 className='project-title'>
-                                <a href="#">MUSIC PLAYER</a>
+                                <a href="#project">MUSIC PLAYER</a>
                             </h3>
                             <div className="project-description">
                                 <p id="j">Building a custom using simple javascript ,html ,css created a MUSIC-PLAYER</p>
@@ -368,11 +369,11 @@ a pdf format.
                                 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
                                 </div>
                                 <div className="project-links">
-                                    <a href="#">
+                                    <a href="https://github.com/aroma-sketch/Visitors-count-">
                                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                                     </svg>
                                     </a>
-                                    <a class="external" href="#">
+                                    <a class="external" href="https://aroma-sketch.github.io/Visitors-count-/">
                                     <svg xmlns="http://www.w3.org/2000/svg" role="img"
                                      viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                       stroke-width="2" stroke-linecap="round"
@@ -386,10 +387,10 @@ a pdf format.
                                 </div>
                             </div>
                             <h3 className='project-title'>
-                                <a href="#">Visitor's Count</a>
+                                <a href="#project">Visitor's Count</a>
                             </h3>
                             <div className="project-description">
-                                <p id="j">Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                                <p id="j">created a counterApi for a website</p>
                             </div>
                         </header>
                         <footer>
@@ -411,10 +412,10 @@ a pdf format.
                                 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
                                 </div>
                                 <div className="project-links">
-                                    <a href="https://github.com/aroma-sketch/resume_builder-js">
+                                    <a href="https://github.com/aroma-sketch/To-do-list-app">
                                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                                     </a>
-                                    <a class="external" href="#">
+                                    <a class="external" href="https://aroma-todolist.netlify.app/">
                                     <svg xmlns="http://www.w3.org/2000/svg" role="img"
                                      viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                       stroke-width="2" stroke-linecap="round"
@@ -428,12 +429,10 @@ a pdf format.
                                 </div>
                             </div>
                             <h3 className='project-title'>
-                                <a href="#">To-Do-list</a>
+                                <a href="#project">To-Do-list</a>
                             </h3>
                             <div className="project-description">
-                                <p id="j">Web- Application project build using javascript, bootstrap, HTML, CSS
-and backend technology is MySQL ,PHP where the user puts their detail and can create their resume in a specific template and can download it in
-a pdf format.
+                                <p id="j">a beautifully styled to-do-list app using react library
 </p>
                             </div>
                         </header>
@@ -446,9 +445,9 @@ a pdf format.
                         </footer>
                     </div>
                 </li>
-
+                
 {/* theme toggler */}
-                <li className="dIMCBf">
+<li className="dIMCBf">
                     <div className="project-inner">
                         <header>
                             <div className="project-top">
@@ -456,10 +455,10 @@ a pdf format.
                                 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
                                 </div>
                                 <div className="project-links">
-                                    <a href="https://github.com/aroma-sketch/Socio-launcher">
+                                    <a href="https://github.com/aroma-sketch/theme-toggler">
                                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                                     </a>
-                                    {/* <a class="external" href="#">
+                                    <a class="external" href="https://aroma-sketch.github.io/theme-toggler/">
                                     <svg xmlns="http://www.w3.org/2000/svg" role="img"
                                      viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                       stroke-width="2" stroke-linecap="round"
@@ -468,27 +467,27 @@ a pdf format.
                                         <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
                                         </svg> 
 
-                                        </a> */}
+                                        </a>
                               
                                 </div>
                             </div>
                             <h3 className='project-title'>
-                                <a href="#">Theme-Toggler</a>
+                                <a href="#project">Theme toggler</a>
                             </h3>
                             <div className="project-description">
-                                <p id="j">Developed an innovative Chrome-Extension package that automated the user all of their social media links, accessible to all browsers</p>
+                                <p id="j"> A theme switcher functionality for any website</p>
                             </div>
                         </header>
                         <footer>
                             <ul className='project-tech-list'>
-                                <li>json</li>
-                                <li>manifest json</li>
-                                <li>pjp</li>
+                                <li>html</li>
+                                <li>css</li>
+                                <li>javascript</li>
                             </ul>
                         </footer>
                     </div>
                 </li>
-
+ 
 
             </ul>
             </div>

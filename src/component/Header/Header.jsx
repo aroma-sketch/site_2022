@@ -11,7 +11,7 @@ export default function Header({ menuOpen, setMenuOpen}) {
           <a aria-current="page" 
           class="logo active" 
           tag="[object Object]"
-           href="#intro">
+           href="#home">
                <span> &lt;</span>
                 <span  className="logo-name">Aroma gupta</span>
                 <span >/&gt;</span>
