@@ -8,7 +8,7 @@ const Contact = () => {
         <div className='contact' id="contact">
     
           <h2 className='hrd'>what's next? </h2>
-            <h2 className='title'>lets work together !</h2>
+            <h2 className='title'>let's work together !</h2>
           <p className='jhjk'>Got a question or a proposal or just wanna talk about a project, or just wanna hello, drop me a message! ^_~
           </p>
           {/* I'm currently Available for any design systems projects, dashboard designs or landing pages gigs. */}

@@ -35,7 +35,7 @@ const Footer = () => {
     </div>
         <div className="first-line">
              {/* ................Copyright area .......................*/}
-            <p>Build &amp; Developed by AromaGupta</p>
+            <p>Build &amp; Developed by Aroma Gupta</p>
         </div>
           
 
@@ -50,7 +50,7 @@ const Footer = () => {
             </div>
 
             <div className="third-line">
-                <p>designed by &amp; brittany chiang</p>
+                <p>Designed by brittany chiang</p>
                 {/* <p>Copyright&copy; <span> {getYear()} </span> All Rights Reserved.</p> */}
             </div>
             

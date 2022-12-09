@@ -41,7 +41,7 @@ const Project = () => {
                                 <a href="#project">landmine detecting arduino robot</a>
                             </h3>
                             <div className="project-description">
-                                <p id="j">Arduino-based controlled car, using Arduino Uno-3, L298N light driver module board with ultrasonic sensors to perceive the surroundings and act wisely</p>
+                                <p id="j">Arduino-based controlled car, using Arduino Uno-3, L298N light driver module board with ultrasonic sensors to perceive the surroundings and act wisely.</p>
                                 {/* <p>This project is designed as a robotic vehicle for remote operation. This kind of robot can be helpful for mobility aid for elderly and also for military purpose.</p> */}
                             </div>
                         </header>
@@ -127,7 +127,7 @@ const Project = () => {
                             </h3>
                             <div className="project-description">
                                 <p id="j">Web- Application project build using javascript, bootstrap, HTML, CSS
-and backend technology is MySQL ,PHP where user puts their detail and can create their resume in a specific template and can also download
+and backend technology is MySQL, PHP where the user puts their detail and can create their resume in a specific template and can also download
 a pdf format.
 </p>
                             </div>
@@ -172,7 +172,7 @@ a pdf format.
                                 <a href="#project">weather app</a>
                             </h3>
                             <div className="project-description">
-                                <p id="j">Weather forecast web -application, which provides you weather information of the city, the app is dynamically responsive also its has an adaptable UI, according to the city information</p>
+                                <p id="j">Weather forecast web -an application, which provides you with weather information about the city, the app is dynamically responsive also its has an adaptable UI, according to the city information.</p>
                             </div>
                         </header>
                         <footer>
@@ -257,7 +257,7 @@ a pdf format.
                                 <a href="#project">personal website</a>
                             </h3>
                             <div className="project-description">
-                                <p id="j">second integration of my portfolio website built with react.js and hosted on netlify</p>
+                                <p id="j">Second integration of my portfolio website built with react.js and hosted on netlify.</p>
                             </div>
                         </header>
                         <footer>
@@ -306,7 +306,7 @@ a pdf format.
                                 <a href="#project">portfolio  website</a>
                             </h3>
                             <div className="project-description">
-                                <p id="j">A portfolio website built with the help of HTML, CSS,SASS, JavaScript, Bootstrap, react.js, material-UI,framer-motion, and additional react libraries</p>
+                                <p id="j">A portfolio website built with the help of HTML, CSS,SASS, JavaScript, Bootstrap, react.js, material-UI,framer-motion, and additional react libraries.</p>
                             </div>
                         </header>
                         <footer>
