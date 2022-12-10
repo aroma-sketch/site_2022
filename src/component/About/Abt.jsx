@@ -9,7 +9,7 @@ const Abt = () => {
             <div className="inner">
                 <div className="rig">
                     <div>
-                        <p>Hello ! My name is Aroma Gupta and currently, I am enrolled in Bachelor's Degree. I am a <span id="highlight">fourth-year student </span> studying <span id ="highlight">Information Technology </span>at<span  id="highlight"> D.Y Patil College Of Engineering,Pune</span>.</p>
+                        <p>Hello ! My name is Aroma Gupta and currently, I am enrolled in Bachelor's Degree. I am a <span id="highlight">fourth-year student </span> studying <span id ="highlight">Information Technology </span>at<span  id="highlight"> D.Y Patil College Of Engineering , Pune</span>.</p>
                         <p>I'm a passionate, hardworking coder with a penchant for development.
                         </p>
                         <p>I have experience developing and designing software for the web, from simple landing pages to progressive web.<br /> I strive to create software that not only functions efficiently under the hood but also provides intuitive, pixel-perfect user experiences.</p>
