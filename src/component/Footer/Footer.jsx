@@ -8,7 +8,7 @@ import {FiTwitter,FiLinkedin,FiGithub,FiFacebook,FiInstagram} from 'react-icons/
 const Footer = () => {
     const [count, setCount] = useState(null);
     useEffect(() => {
-      fetch("https://api.countapi.xyz/update/aromagupta/mysite/?amount=1")
+      fetch("https://api.countapi.xyz/update/www.aromagupta.com/08014095-3f75-4895-80e4-007b0035bd20/?amount=1")
         .then((res) => res.json())
         .then((json) => setCount(json.value));
     }, []);
