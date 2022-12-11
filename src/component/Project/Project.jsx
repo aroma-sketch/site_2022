@@ -2,6 +2,7 @@ import React from 'react';
 import "./Project.scss";
 import { useEffect, useState } from "react";
 import { styled } from '@material-ui/core';
+import pic from "../../Assets/pic.jpg";
 
 const Project = () => {
     const [open, setOPen] = useState();
@@ -15,6 +16,14 @@ const Project = () => {
 {/* ARDUINO ROBOT */}
                 <li className="dIMCBf">
                     <div className="project-inner">
+                    {/* <div className='project-image'>
+                        <div className="image-wrapper">
+                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <img src={pic} alt="image " />
+                            </a>
+                        
+                        </div>
+                        </div> */}
                         <header>
                             <div className="project-top">
                                 <div className="folder">
@@ -53,6 +62,7 @@ const Project = () => {
                             </ul>
                         </footer>
                     </div>
+                  
                 </li>
 
 {/* BLOG WEBSITE */}

@@ -27,6 +27,49 @@
             background-color: var(--light-navy);
             transition: var(--transition);
             overflow: auto;
+
+
+    //         .project-image{
+    //             grid-column: 1 / -1;
+    //             height: 100%;
+    //             opacity: 0.25;
+    //             box-shadow: 0 10px 30px -15px var(--navy-shadow);
+    //             transition: var(--transition);
+    //             grid-area: 1 / 6 / -1 / -1;
+    //             position: relative;
+    //             z-index: 1;
+        
+    //             .image-wrapper{
+    //                 object-fit: cover;
+    //                 width: auto;
+    //                 height: 100%;
+    //                 filter: grayscale(100%) contrast(1) brightness(50%);
+    //                 border-radius: var(--border-radius);
+    //                 mix-blend-mode: multiply;
+    //                 display: inline-block;
+    //                 position: relative;
+    //                 overflow: hidden;
+    //                 max-width: 100%;
+    //                 vertical-align: middle;
+
+    //                 a{
+    //                     &::before{
+    //                         content: "";
+    // position: absolute;
+    // width: 100%;
+    // height: 100%;
+    // inset: 0px;
+    // z-index: 3;
+    // transition: var(--transition);
+    // background-color: var(--navy);
+    // mix-blend-mode: screen;
+    //                     }
+    //                 }
+    //             }
+    //         }
+
+            
+
         }
         
 
@@ -86,6 +129,7 @@
 
     box-shadow: 0 10px 30px -15px var(--navy-shadow);
 
+   
             
 
            a{
